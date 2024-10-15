@@ -57,7 +57,7 @@ nav: # Структура сайта
 
 extra:
   social: # Ссылки на соц.сети
-    - icon: fontawesome/brands/.github-alt # Иконка гитхаба
+    - icon: fontawesome/brands/github-alt # Иконка гитхаба
       link: https://github.com/{your_account} # Ссылка на гитхаб
 
 markdown_extensions: # Расширения markdown
