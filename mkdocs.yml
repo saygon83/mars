@@ -2,6 +2,7 @@ site_name: MARS DOCS # Название сайта
 site_description: Документация MarS # Описание сайта, добавляется в meta-теги
 theme: # Тема сайта, информация о ее параметрах
   name: material # Название темы
+  logo: logo.svg # Ссылка на логотип сайта
   font:
     text: Roboto # Шрифт текста
     code: Roboto Mono # Шрифт для текста кода
@@ -56,7 +57,7 @@ nav: # Структура сайта
 
 extra:
   social: # Ссылки на соц.сети
-    - icon: fontawesome/brands/.github-alt # Иконка гитхаба
+    - icon: fontawesome/brands/github-alt # Иконка гитхаба
       link: https://github.com/{your_account} # Ссылка на гитхаб
 
 markdown_extensions: # Расширения markdown
@@ -76,4 +77,4 @@ markdown_extensions: # Расширения markdown
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 copyright: |
-  &copy; 2024 NOVILLERO
+  &copy; MTS
